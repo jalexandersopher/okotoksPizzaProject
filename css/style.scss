@@ -1,0 +1,80 @@
+
+@media only screen and (max-width: 450px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #headerGridContainer {
+        display: grid;
+        grid-template-rows: 12vh;
+    }
+
+    #logo {
+        height: 12vh;
+        width: auto;
+    }
+    
+    #logoContainer {
+        background-color: #f4d6ad;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 30vw 40vw 30vw;
+    }
+
+    #headerNavbarSpacer {
+        height: 8vh;
+    }
+
+    #navbarGridContainer {
+        display: grid;
+        grid-template-rows: 9vh 8vh 8vh;
+        justify-items: center;
+    }
+
+    #callMe {
+        text-decoration: none;
+        color: #484538;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    #ourMenu {
+        text-decoration: none;
+        color: #484538;
+        font-size: 26px;
+    }
+
+    #aboutUs {
+        text-decoration: none;
+        color: #484538;
+        font-size: 26px;
+    }
+
+    #postLinksDivider {
+        border-style: solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    #ourLocationContainer {
+        display: grid;
+        grid-template-rows: 12vh 20vh;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #ourLocation {
+        font-size: 26px;
+        color: #484538;
+    }
+
+    #googleMapsLocation {
+        width: 80vw;
+        height: auto;
+    }
+
+}
+
