@@ -1,0 +1,82 @@
+@media only screen and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #body {
+    background-image: url("../images/backgroundImage.jpg");
+  }
+  #headerGridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+  }
+  #logoContainerMenu {
+    background-color: #eb0000;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 40vw 25vw 35vw;
+        grid-template-columns: 40vw 25vw 35vw;
+    position: fixed;
+  }
+  #logo {
+    height: 12vh;
+    width: auto;
+  }
+  #homeFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #aboutUsFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #menuCallUs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #callMe {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+  }
+  #menuPageSelectorsNonHeader {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #returnToCategorySelection {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+  }
+  #postLinksDivider {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+}
+/*# sourceMappingURL=menuPageStyle.css.map */

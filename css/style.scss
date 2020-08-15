@@ -1,9 +1,11 @@
 
 @media only screen and (max-width: 450px) {
     
+    
+    
     /*CSS styling for the home page*/
 
-    
+
 
     * {
         margin: 0px;
@@ -147,6 +149,36 @@
         font-size: 20px;
     }
 
+    #menuCategoryContainer {
+        display: grid;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f4d6ad;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-rows: 10vh 10vh 10vh 10vh;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #menuCallUs {
+        display: grid;
+        grid-template-rows: 12vh;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .menuSelectors {
+        font-size: 26px;
+        text-decoration: none;    
+    }
+
+    .menuSelectorLinks {
+        text-decoration: none;
+        color: #484538;
+        font-weight: bolder;
+    }
+
 
 
     /*CSS styling for the about us page*/
@@ -174,6 +206,57 @@
         color: white;
         font-weight: bolder;
         font-size: 20px;
+    }
+
+    #videoContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+        padding-top: 27.5px;
+    }
+
+    #writtenContentContainer {
+        display: grid;
+        grid-template-rows: 60vh 40vh 40vh;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f4d6ad;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .writtenContent {
+        color: #484538;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #paragraph1 {
+        padding-top: 30px;
+    }
+
+    #paragraph2 {
+        padding-top: 30px;
+    }
+
+    #paragraph3 {
+        padding-top: 10vh;
+        padding-bottom: 12vh;
+    }
+
+    #writtenContentImage1 {
+        width: 70vw;
+        height: auto;
+    }
+
+    #writtenContentImage2 {
+        width: 70vw;
+        height: auto;
+        padding-top: 10vh;
     }
 
 }
