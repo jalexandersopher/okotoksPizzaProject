@@ -804,7 +804,7 @@
 
     #writtenContentContainer {
         display: grid;
-        grid-template-rows: 60vh 40vh 40vh;
+        grid-template-rows: 40vh 30vh 30vh;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #f4d6ad;
@@ -818,6 +818,7 @@
         color: #484538;
         text-align: center;
         font-size: 20px;
+        width: 50vw;
     }
 
     #paragraph1 {
@@ -834,14 +835,14 @@
     }
 
     #writtenContentImage1 {
-        width: 70vw;
+        width: 40vw;
         height: auto;
     }
 
     #writtenContentImage2 {
-        width: 70vw;
+        width: 40vw;
         height: auto;
-        padding-top: 10vh;
+        padding-top: 30px;
     }
 
 
