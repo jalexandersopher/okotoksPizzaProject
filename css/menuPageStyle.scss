@@ -76,5 +76,133 @@
         margin-right: 15px;
         margin-top: 35px;
     }
+
+    #halfPricePizzaDiv {
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    #cardsContainer {
+        display: grid;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-items: center;
+        background-color: #f4d6ad;
+    }
+
+    .Cards {
+        max-height: 30vh;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .pizzaImages {
+        width: 50vw;
+        height: auto;
+    }
+
+    .appyImages {
+        width: 50vw;
+        height: auto;
+    }
+
+    .pizzaTitles {
+        text-align: center;
+        color: #484538;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .pizzaDescriptions {
+        text-align: center;
+        color: #484538;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    #margherita {
+        height: 20vh;
+        width: auto;
+    }
+
+    #tomatoMozzarellaDiv {
+        display: grid;
+        height: 50vh;
+        width: auto;
+        padding-bottom: 240px;
+    }
+
+    .pizzaSpacerLines {
+        border-style: solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        width: 70vw;
+    }
+
+    .appySpacerLines {
+        border-style: solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        width: 70vw;
+    }
+
+    .drinkSpacerLines {
+        border-style: solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        width: 70vw;
+    }
+
+    .dessertSpacerLines {
+        border-style: solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+        width: 70vw;
+    }
+
+    #footerContainer {
+        display: grid;
+        grid-template-columns: 15vw 40vw 15vw 15vw 15vw;
+        grid-template-rows: 7vh;
+        background-color: #eb0000;
+        position: fixed;
+        bottom: 0;
+        align-items: center;
+        
+    }
+
+    #footerLogo {
+        height: 7vh;
+    }
+
+    #footerSpacer {
+        font-size: 7px;
+        padding-left: 6vw;    
+    }
+
+    #twitterLogo {
+        height: 3vh;
+    }
+
+    #facebookLogo {
+        height: 3vh;
+    }
+
+    #instaLogo {
+        height: 3vh;
+    }
+
+    
 }
 
