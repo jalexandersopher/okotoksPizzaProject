@@ -1,3 +1,14 @@
+@media (min-width: 451px) {
+    #callMe {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 450px) {
     
     
@@ -324,7 +335,7 @@
 
     #callMe {
         text-decoration: none;
-        font-size: 28px;
+        font-size: 36px;
         font-weight: bolder;
         color: white;
     }
@@ -332,13 +343,13 @@
     #ourMenu {
         text-decoration: none;
         color: white;
-        font-size: 26px;
+        font-size: 32px;
     }
 
     #aboutUs {
         text-decoration: none;
         color: white;
-        font-size: 26px;
+        font-size: 32px;
     }
 
     #postLinksDivider {
@@ -356,13 +367,13 @@
     }
 
     #ourLocation {
-        font-size: 26px;
+        font-size: 32px;
         color: white;
     }
 
     #googleMapsLocation {
         width: 80vw;
-        height: auto;
+        height: 22vh;
     }
 
     #footerContainer {
@@ -373,6 +384,7 @@
         position: fixed;
         bottom: 0;
         align-items: center;
+        justify-items: center;
         
     }
 
@@ -416,14 +428,14 @@
         text-decoration: none;
         color: white;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     #aboutUsFromMenuLink {
         text-decoration: none;
         color: white;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     #menuCategoryContainer {
@@ -446,7 +458,7 @@
     }
 
     .menuSelectors {
-        font-size: 26px;
+        font-size: 30px;
         text-decoration: none;    
     }
 
@@ -475,14 +487,14 @@
         text-decoration: none;
         color: white;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     #menuFromAboutUsLink {
         text-decoration: none;
         color: white;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 28px;
     }
 
     #videoContainer {
@@ -494,6 +506,11 @@
         padding-top: 27.5px;
     }
 
+    #video {
+        width: 45vw;
+        height: 45vh;
+    }
+
     #hoursAndAddressDiv {
         padding-right: 40px;
         padding-left: 40px;
@@ -503,7 +520,7 @@
     #hoursAndAddress {
         text-align: center;
         color: white;
-        font-size: 22px;
+        font-size: 26px;
     }
 
     #writtenContentContainer {
@@ -602,7 +619,7 @@
 
     #callMe {
         text-decoration: none;
-        font-size: 28px;
+        font-size: 38px;
         font-weight: bolder;
         color: white;
     }
@@ -610,19 +627,19 @@
     #ourMenu {
         text-decoration: none;
         color: white;
-        font-size: 26px;
+        font-size: 34px;
     }
 
     #aboutUs {
         text-decoration: none;
         color: white;
-        font-size: 26px;
+        font-size: 34px;
     }
 
     #postLinksDivider {
         border-style: solid;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
         margin-top: 15px;
     }
 
@@ -634,13 +651,14 @@
     }
 
     #ourLocation {
-        font-size: 26px;
+        font-size: 34px;
         color: white;
+        padding-bottom: 30px;
     }
 
     #googleMapsLocation {
-        width: 80vw;
-        height: auto;
+        width: 50vw;
+        height: 25vh;
     }
 
     #footerContainer {
@@ -659,7 +677,7 @@
     }
 
     #footerSpacer {
-        font-size: 7px;
+        font-size: 14px;
         padding-left: 6vw;    
     }
 

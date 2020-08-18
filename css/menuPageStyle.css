@@ -96,6 +96,8 @@
     color: white;
     padding-top: 20px;
     text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   #postLinksDivider {
     border-style: solid;
@@ -297,13 +299,13 @@
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 28px;
   }
   #aboutUsFromMenuLink {
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 28px;
   }
   #menuCallUs {
     display: -ms-grid;
@@ -317,7 +319,7 @@
   }
   #callMe {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 34px;
     font-weight: bolder;
     color: white;
   }
@@ -333,31 +335,31 @@
   }
   #returnToCategorySelection {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: bolder;
     color: white;
   }
   #appyPricesDiv {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     padding-top: 20px;
   }
   #drinkPricesDiv {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     padding-top: 20px;
   }
   #dessertPricesDiv {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     padding-top: 20px;
   }
   #pizzaPricesDiv {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     padding-top: 20px;
     text-align: center;
@@ -371,7 +373,7 @@
   #halfPricePizzaDiv {
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
     padding-top: 20px;
   }
   #cardsContainer {
@@ -385,7 +387,7 @@
     background-color: #f4d6ad;
   }
   .Cards {
-    max-height: 30vh;
+    max-height: 42vh;
     display: -ms-grid;
     display: grid;
     justify-items: center;
@@ -400,33 +402,33 @@
     height: auto;
   }
   .appyImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 40vh;
   }
   .drinkImages {
     width: 50vw;
     height: auto;
   }
   .dessertImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 40vh;
   }
   .appyTitles {
     text-align: center;
     color: #484538;
-    font-size: 22px;
+    font-size: 26px;
     padding-top: 20px;
   }
   .drinkTitles {
     text-align: center;
     color: #484538;
-    font-size: 22px;
+    font-size: 28px;
     padding-top: 20px;
   }
   .dessertTitles {
     text-align: center;
     color: #484538;
-    font-size: 22px;
+    font-size: 28px;
     padding-top: 20px;
   }
   #caesarSaladDiv {
@@ -435,7 +437,7 @@
   .pizzaTitles {
     text-align: center;
     color: #484538;
-    font-size: 22px;
+    font-size: 28px;
     padding-top: 20px;
   }
   .pizzaDescriptions {
@@ -453,7 +455,7 @@
     display: grid;
     height: 50vh;
     width: auto;
-    padding-bottom: 240px;
+    padding-bottom: 350px;
   }
   #iceCreamDiv {
     padding-bottom: 120px;
@@ -509,6 +511,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    justify-items: center;
   }
   #footerLogo {
     height: 7vh;
@@ -562,13 +565,13 @@
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 34px;
   }
   #aboutUsFromMenuLink {
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 34px;
   }
   #menuCallUs {
     display: -ms-grid;
@@ -582,7 +585,7 @@
   }
   #callMe {
     text-decoration: none;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bolder;
     color: white;
   }
@@ -598,7 +601,7 @@
   }
   #returnToCategorySelection {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 36px;
     font-weight: bolder;
     color: white;
   }
@@ -622,21 +625,15 @@
   }
   #pizzaPricesDiv {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
     padding-top: 20px;
     text-align: center;
   }
-  #postLinksDivider {
-    border-style: solid;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 35px;
-  }
   #halfPricePizzaDiv {
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 34px;
     padding-top: 20px;
   }
   #cardsContainer {
@@ -661,20 +658,20 @@
     padding-top: 45px;
   }
   .pizzaImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 30vh;
   }
   .appyImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 35vh;
   }
   .drinkImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 35vh;
   }
   .dessertImages {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: 33vh;
   }
   .appyTitles {
     text-align: center;
@@ -700,18 +697,21 @@
   .pizzaTitles {
     text-align: center;
     color: #484538;
-    font-size: 22px;
+    font-size: 32px;
     padding-top: 20px;
   }
   .pizzaDescriptions {
     text-align: center;
     color: #484538;
-    font-size: 18px;
+    font-size: 26px;
     padding-top: 15px;
   }
   #margherita {
     height: 20vh;
     width: auto;
+  }
+  #spriteDiv {
+    padding-bottom: 180px;
   }
   #tomatoMozzarellaDiv {
     display: -ms-grid;
@@ -727,14 +727,14 @@
     border-style: solid;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 60px;
+    margin-top: 90px;
     width: 70vw;
   }
   .pizzaSpacerLines {
     border-style: solid;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 70vw;
   }
   .appySpacerLines {
@@ -751,7 +751,7 @@
     border-style: solid;
     margin-left: 15px;
     margin-right: 15px;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 70vw;
   }
   .dessertSpacerLines {
@@ -779,7 +779,7 @@
     height: 7vh;
   }
   #footerSpacer {
-    font-size: 7px;
+    font-size: 14px;
     padding-left: 6vw;
   }
   #twitterLogo {
