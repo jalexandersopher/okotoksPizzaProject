@@ -72,6 +72,31 @@
     font-weight: bolder;
     color: white;
   }
+  #appyPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #drinkPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #dessertPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #pizzaPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+  }
   #postLinksDivider {
     border-style: solid;
     margin-left: 15px;
@@ -102,8 +127,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-top: 45px;
   }
   .pizzaImages {
     width: 50vw;
@@ -112,6 +137,35 @@
   .appyImages {
     width: 50vw;
     height: auto;
+  }
+  .drinkImages {
+    width: 50vw;
+    height: auto;
+  }
+  .dessertImages {
+    width: 50vw;
+    height: auto;
+  }
+  .appyTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .drinkTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .dessertTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #caesarSaladDiv {
+    padding-bottom: 45px;
   }
   .pizzaTitles {
     text-align: center;
@@ -136,6 +190,16 @@
     width: auto;
     padding-bottom: 240px;
   }
+  #iceCreamDiv {
+    padding-bottom: 120px;
+  }
+  .dessertSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
   .pizzaSpacerLines {
     border-style: solid;
     margin-left: 15px;
@@ -147,8 +211,541 @@
     border-style: solid;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
+  #yamFriesDiv {
+    padding-bottom: 200px;
+  }
+  .drinkSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 30px;
     width: 70vw;
+  }
+  .dessertSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 70vw;
+  }
+  #footerContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 15vw 40vw 15vw 15vw 15vw;
+        grid-template-columns: 15vw 40vw 15vw 15vw 15vw;
+    -ms-grid-rows: 7vh;
+        grid-template-rows: 7vh;
+    background-color: #eb0000;
+    position: fixed;
+    bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footerLogo {
+    height: 7vh;
+  }
+  #footerSpacer {
+    font-size: 7px;
+    padding-left: 6vw;
+  }
+  #twitterLogo {
+    height: 3vh;
+  }
+  #facebookLogo {
+    height: 3vh;
+  }
+  #instaLogo {
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #body {
+    background-image: url("../images/backgroundImageTabletDesktop.jpg");
+  }
+  #headerGridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+  }
+  #logoContainerMenu {
+    background-color: #eb0000;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 40vw 25vw 35vw;
+        grid-template-columns: 40vw 25vw 35vw;
+    position: fixed;
+  }
+  #logo {
+    height: 12vh;
+    width: auto;
+  }
+  #homeFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #aboutUsFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #menuCallUs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #callMe {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+  }
+  #menuPageSelectorsNonHeader {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #returnToCategorySelection {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+  }
+  #appyPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #drinkPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #dessertPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #pizzaPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #postLinksDivider {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+  #halfPricePizzaDiv {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #cardsContainer {
+    display: -ms-grid;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-items: center;
+    background-color: #f4d6ad;
+  }
+  .Cards {
+    max-height: 30vh;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 60px;
+    padding-top: 45px;
+  }
+  .pizzaImages {
+    width: 50vw;
+    height: auto;
+  }
+  .appyImages {
+    width: 50vw;
+    height: auto;
+  }
+  .drinkImages {
+    width: 50vw;
+    height: auto;
+  }
+  .dessertImages {
+    width: 50vw;
+    height: auto;
+  }
+  .appyTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .drinkTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .dessertTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #caesarSaladDiv {
+    padding-bottom: 45px;
+  }
+  .pizzaTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .pizzaDescriptions {
+    text-align: center;
+    color: #484538;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  #margherita {
+    height: 20vh;
+    width: auto;
+  }
+  #tomatoMozzarellaDiv {
+    display: -ms-grid;
+    display: grid;
+    height: 50vh;
+    width: auto;
+    padding-bottom: 240px;
+  }
+  #iceCreamDiv {
+    padding-bottom: 120px;
+  }
+  .dessertSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
+  .pizzaSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 70vw;
+  }
+  .appySpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
+  #yamFriesDiv {
+    padding-bottom: 200px;
+  }
+  .drinkSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 70vw;
+  }
+  .dessertSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 70vw;
+  }
+  #footerContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 15vw 40vw 15vw 15vw 15vw;
+        grid-template-columns: 15vw 40vw 15vw 15vw 15vw;
+    -ms-grid-rows: 7vh;
+        grid-template-rows: 7vh;
+    background-color: #eb0000;
+    position: fixed;
+    bottom: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #footerLogo {
+    height: 7vh;
+  }
+  #footerSpacer {
+    font-size: 7px;
+    padding-left: 6vw;
+  }
+  #twitterLogo {
+    height: 3vh;
+  }
+  #facebookLogo {
+    height: 3vh;
+  }
+  #instaLogo {
+    height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #body {
+    background-image: url("../images/backgroundImageTabletDesktop.jpg");
+  }
+  #headerGridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+  }
+  #logoContainerMenu {
+    background-color: #eb0000;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 40vw 25vw 35vw;
+        grid-template-columns: 40vw 25vw 35vw;
+    position: fixed;
+  }
+  #logo {
+    height: 12vh;
+    width: auto;
+  }
+  #homeFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #aboutUsFromMenuLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #menuCallUs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #callMe {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+  }
+  #menuPageSelectorsNonHeader {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 12vh;
+        grid-template-rows: 12vh;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #returnToCategorySelection {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+  }
+  #appyPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #drinkPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #dessertPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+  }
+  #pizzaPricesDiv {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #postLinksDivider {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+  #halfPricePizzaDiv {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #cardsContainer {
+    display: -ms-grid;
+    display: grid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-items: center;
+    background-color: #f4d6ad;
+  }
+  .Cards {
+    max-height: 30vh;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 60px;
+    padding-top: 45px;
+  }
+  .pizzaImages {
+    width: 50vw;
+    height: auto;
+  }
+  .appyImages {
+    width: 50vw;
+    height: auto;
+  }
+  .drinkImages {
+    width: 50vw;
+    height: auto;
+  }
+  .dessertImages {
+    width: 50vw;
+    height: auto;
+  }
+  .appyTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .drinkTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .dessertTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  #caesarSaladDiv {
+    padding-bottom: 45px;
+  }
+  .pizzaTitles {
+    text-align: center;
+    color: #484538;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .pizzaDescriptions {
+    text-align: center;
+    color: #484538;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  #margherita {
+    height: 20vh;
+    width: auto;
+  }
+  #tomatoMozzarellaDiv {
+    display: -ms-grid;
+    display: grid;
+    height: 50vh;
+    width: auto;
+    padding-bottom: 240px;
+  }
+  #iceCreamDiv {
+    padding-bottom: 120px;
+  }
+  .dessertSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
+  .pizzaSpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 70vw;
+  }
+  .appySpacerLines {
+    border-style: solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 60px;
+    width: 70vw;
+  }
+  #yamFriesDiv {
+    padding-bottom: 200px;
   }
   .drinkSpacerLines {
     border-style: solid;
